@@ -1,0 +1,19 @@
+########################################################
+# More Cloud!
+#
+########################################################
+
+1. Install boto:
+	pip install -U boto
+
+2. Create boto cfg file with Amazon AWS secret keys as ~/.boto:
+
+Format:
+[Credentials]
+aws_access_key_id = AKIAI6UWGMM4T4EZQDCQ
+aws_secret_access_key = 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
+
+3. Install dropbox Python SDK 1.4
+
+4. Run web server : python web_server_main.py
+It starts on port 8082 (http://localhost:8082)
